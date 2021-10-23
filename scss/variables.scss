@@ -1,0 +1,40 @@
+/*Estilos Globales*/
+h1 {
+    font-family: 'Boogaloo', cursive;
+    color: white;
+}
+h2 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 40px;
+    color: white;
+}
+h3{
+    font-family: 'Boogaloo', cursive;
+    font-size: 40px;
+    color: white;
+}
+h4{
+    font-family: 'Boogaloo', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+li{
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.columnas{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+$azul1: rgb(81, 81, 253)

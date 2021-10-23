@@ -1,0 +1,592 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Imports de Estilos de todos*/
+/*Estilos Globales*/
+h1 {
+  font-family: 'Boogaloo', cursive;
+  color: white;
+}
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-section {
+  background: #5151fd;
+}
+
+header .header-section .nav-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-section .nav-index .nav-index__logo {
+  width: 150px;
+}
+
+header .header-section .nav-index .nav-index__boton {
+  display: none;
+}
+
+header .header-section .nav-index .nav-index__lista {
+  text-align: right;
+  padding-right: 60px;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul {
+  list-style: none;
+  font-size: 0%;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 20px;
+  position: relative;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li:hover ul {
+  display: block;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: yellow;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a:hover::after {
+  width: 75%;
+  font-size: 20px;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a:hover {
+  font-size: 25px;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__ul--submenu {
+  position: absolute;
+  display: none;
+  background-color: #1a1a99;
+}
+
+header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__ul--submenu .nav-index__li--submenu {
+  text-align: center;
+  display: block;
+  font-size: 15px;
+  right: 10px;
+}
+
+/*Estilos Globales*/
+h1 {
+  font-family: 'Boogaloo', cursive;
+  color: white;
+}
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*Main Index*/
+main .section-slogan .section-slogan__columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex {
+  margin: 20px;
+  position: relative;
+  top: 150px;
+  width: 50%;
+}
+
+main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__h2 {
+  text-align: left;
+  color: black;
+  font-size: 50px;
+}
+
+main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__a {
+  color: white;
+  text-decoration: none;
+  background: #0d01cc;
+  font-family: 'Boogaloo', cursive;
+  background: linear-gradient(128deg, #0d01cc 0%, #1313e9 0%, #5d70fe 100%);
+  font-size: 32px;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__a:hover {
+  font-size: 40px;
+}
+
+main .section-slogan .section-slogan__columnas .section-slogan__imagen {
+  width: 50%;
+}
+
+main #cursos-section .cursos-section__h3 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #5151fd;
+}
+
+main #cursos-section .container .carouselProgramas {
+  padding: 40px;
+}
+
+main #alumnos-section {
+  height: 500px;
+}
+
+main #alumnos-section .alumnos-section__h3 {
+  text-align: center;
+  background-color: #5151fd;
+  font-size: 40px;
+}
+
+main #alumnos-section .alumnos-section__columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__redesSociales {
+  height: 500px;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__redesSociales .alumnos-section__h2 {
+  color: black;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__redesSociales video {
+  height: 300px;
+  margin-bottom: 60px;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__alumnos {
+  text-align: right;
+  margin: 20px;
+  height: 300px;
+  background-color: #adadad;
+  overflow: scroll;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__alumnos h4 {
+  color: black;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__alumnos h3 {
+  text-align: center;
+  background-color: #5151fd;
+  font-size: 40px;
+}
+
+main #alumnos-section .alumnos-section__columnas .alumnos-section__alumnos img {
+  border-radius: 80px;
+}
+
+main .section-sloganAzul {
+  margin-bottom: 30px;
+}
+
+main .section-sloganAzul h1 {
+  font-size: 70px;
+  color: white;
+  background-color: #5151fd;
+  text-align: center;
+  padding: 10px;
+}
+
+/*Main Programas*/
+main .section-programas .section-programas__columnaProgramas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-cursoVirtual {
+  position: relative;
+  top: 35px;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-cursoVirtual h3 {
+  font-size: 50px;
+  color: black;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-programa h2 {
+  color: yellow;
+  font-size: 100px;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-programas__imagenProgramas {
+  margin: 20px;
+  width: 40vh;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas ul {
+  font-size: 30px;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a {
+  color: white;
+  text-decoration: none;
+  background: #0d01cc;
+  font-family: 'Boogaloo', cursive;
+  background: linear-gradient(128deg, #0d01cc 0%, #1313e9 0%, #5d70fe 100%);
+  font-size: 32px;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a:hover {
+  font-size: 40px;
+}
+
+main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas h2 {
+  color: yellow;
+  margin-top: 40px;
+}
+
+main .section-beneficios .section-beneficios__cajaBeneficios {
+  width: 100%;
+  background-color: yellow;
+  margin: 30px;
+}
+
+main .section-beneficios .section-beneficios__cajaBeneficios h2 {
+  padding-left: 180px;
+  font-size: 40px;
+}
+
+main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas ul {
+  color: black;
+  font-size: 25px;
+}
+
+main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Boogaloo', cursive;
+  background: #22c335;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c335), to(#2dfd37));
+  background: linear-gradient(0deg, #22c335 0%, #2dfd37 100%);
+  font-size: 32px;
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+
+main #cursos-section .cursos-section__h3 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #5151fd;
+}
+
+main #cursos-section .container .carouselProgramas {
+  padding: 40px;
+}
+
+/*Main Registrate*/
+main .imagenFormulario {
+  width: 100%;
+  height: 85vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent)) url("Multimedia de LAD/imagenMun1-min.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent) url("Multimedia de LAD/imagenMun1-min.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main .mapaRegistrate {
+  margin-left: 50px;
+}
+
+main form {
+  margin: 30px;
+}
+
+footer .footer-section .footer-section__container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "titulos titulos titulos titulos"  "diego karla cursos faq";
+  gap: 15px;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach {
+  margin: 20px;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: titulos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja .footer-section__h3 {
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: diego;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: karla;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: titulos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja .footer-section__h3 {
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: cursos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul {
+  list-style: none;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul .footer-section__li .footer-section__a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: titulos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja .footer-section__h3 {
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: faq;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul {
+  list-style: none;
+}
+
+/*Estilos Globales*/
+h1 {
+  font-family: 'Boogaloo', cursive;
+  color: white;
+}
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=estilos.css.map */

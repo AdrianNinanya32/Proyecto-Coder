@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilos Globales*/
+h1 {
+    font-family: 'Boogaloo', cursive;
+    color: white;
+}
+h2 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 40px;
+    color: white;
+}
+h3{
+    font-family: 'Boogaloo', cursive;
+    font-size: 40px;
+    color: white;
+}
+h4{
+    font-family: 'Boogaloo', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+li{
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+tr,th{
+    background-color: yellow;}
+/*Estilos Header*/
+.header {
+    background: rgb(81, 81, 253);
+}
+/*Barra de Navegación*/
+
+nav{
+    display: flex;
+    padding-top: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 150px;
+}
+.boton {
+    display:none;
+}
+.seccionesLink {
+    text-align: right;
+    padding-right: 60px;
+}
+.seccionesLink ul{
+    list-style: none;
+    font-size: 0%;
+}
+.seccionesLink  ul li {
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.seccionesLink ul li a{
+    color: white;
+    text-decoration:none ;
+    position: relative;
+    transition: 1s;
+}
+.seccionesLink ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:yellow;
+    transition: width 0.3s;
+}
+.seccionesLink ul li a:hover::after{
+    width: 75%;
+    font-size: 30px;
+}
+.seccionesLink ul li a:hover{
+    font-size: 30px;
+}
+
+.seccionesLink ul li ul {
+    position: absolute;
+    display: none;
+    background-color: rgb(26, 26, 153);
+}
+.seccionesLink ul li ul li{
+    text-align: center;
+    display: block;
+    right: 10px;
+}
+.seccionesLink ul li:hover ul{
+    display: block;
+}
+
+/*Final de la barra de navegación*/
+
+/*Para Columnas*/
+
+.columnas{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Final de Columnas*/
+
+/*Inicio Slogan*/
+
+.sloganIndex {
+    margin: 20px;
+    position:relative ;
+    top: 150px;
+    width: 50%;
+}
+.sloganIndex h2 {
+    text-align: left;
+    color: black;
+    font-size: 50px;
+}
+.sloganIndex a{
+    color: white;
+    text-decoration: none;
+    background: rgb(13,1,204);
+    font-family: 'Boogaloo', cursive;
+    background: linear-gradient(128deg, rgba(13,1,204,1) 0%, rgba(19,19,233,1) 0%, rgba(93,112,254,1) 100%);
+    font-size: 32px;
+    transition: font-size 0.5s;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.sloganIndex a:hover {
+    font-size: 40px;
+}
+.imagenSlogan {
+    width: 50%;
+}
+
+/*Final Slogan*/
+
+/*Inicio Cursos*/
+#cursos h3 {
+    text-align: center;
+    font-size: 40px;
+    background-color:rgb(81, 81, 253) ;
+}
+.container .carouselProgramas{
+    padding: 40px;
+}
+
+/*Final Cursos*/
+
+/*Inicio Alumnos*/
+.redesSociales h2 {
+    color: black;
+}
+#alumnos {
+    height: 500px;
+    overflow: scroll;
+}
+#alumnos h3{
+    text-align: center;
+    background-color:rgb(81, 81, 253) ;
+    font-size: 40px;
+}
+.alumnos {
+    text-align: right;
+    margin: 20px;
+    background-color: rgb(173, 173, 173);
+}
+.alumnos h4 {
+    color: black;
+}
+.alumnos img {
+    border-radius: 80px;
+}
+/*Slogan Azul*/
+.sloganAzul{
+    margin-bottom: 30px;
+}
+.sloganAzul h1 {
+    font-size: 70px;
+    color: white;
+    background-color:rgb(81, 81, 253) ;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Inicio Footer*/
+
+.footer .box-container .caja h3 {
+    color: black;
+}
+.footer .box-container .padreCursos ul{
+    list-style: none;
+}
+.footer .box-container .padreCursos ul li a{
+    text-decoration: none;
+}
+.footer .box-container .padreFaq ul{
+    list-style: none;
+}
+.cursos li{
+    padding: 0;
+}
+.cursos a{
+    color: black;
+    padding: 0px;
+}   
+.footer .box-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "titulos titulos titulos titulos" 
+    "diego karla cursos faq";
+    gap: 15px;
+}
+
+.footer .box-container .padreCoach .caja {
+    grid-area: titulos;
+}
+.footer .box-container .padreCoach .coach .coachesD{
+    grid-area: diego;
+}
+.footer .box-container .padreCoach .coach .coachesK {
+    grid-area: karla;
+}
+.footer .box-container .padreCoach .coach {
+    display: flex;
+}
+
+.footer .box-container .padreCursos .cursos {
+    grid-area: cursos;
+}
+.footer .box-container .padreFaq .faq {
+    grid-area: faq;
+}
+
+/* Página Programa Integral*/
+.columnaProgramas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.columnaProgramas .cursoVirtual {
+    position: relative;
+    top: 35px;
+}
+.columnaProgramas .cursoVirtual h3{
+    font-size: 50px;
+    color: black;
+}
+.columnaProgramas .programa h2{
+    color: yellow;
+    font-size: 100px;
+}
+.imagenProgramas{
+    margin: 20px;
+    width: 40vh;
+}
+.listaProgramas ul {
+    font-size: 30px;
+}
+.listaProgramas a{
+    color: white;
+    text-decoration: none;
+    background: rgb(13,1,204);
+    font-family: 'Boogaloo', cursive;
+    background: linear-gradient(128deg, rgba(13,1,204,1) 0%, rgba(19,19,233,1) 0%, rgba(93,112,254,1) 100%);
+    font-size: 32px;
+    transition: font-size 0.5s;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.listaProgramas a:hover {
+    font-size: 40px;
+}
+.listaProgramas h2{
+    color: yellow;
+    margin-top: 40px;
+}
+.cajaBeneficios{
+    width: 90%;
+    background-color: yellow;
+    margin: 30px;
+}
+.cajaBeneficios h2{
+    padding-left: 180px;
+    font-size: 40px;
+}
+.cajaBeneficios .columnaProgramas ul{
+    color: black;
+    font-size: 25px;
+}
+.cajaBeneficios .columnaProgramas a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Boogaloo', cursive;
+    background: rgb(34,195,53);
+background: linear-gradient(0deg, rgba(34,195,53,1) 0%, rgba(45,253,55,1) 100%);
+    font-size: 32px;
+    transition: font-size 0.5s;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+/*FOrmulario Contacto*/
+form {
+    margin: 30px;
+}
+.imagenFormulario {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),transparent), url("Multimedia\ de\ LAD/Udep-Mun-Inauguracion-y-dia-1-24.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.mapaRegistrate {
+    margin-left: 50px;
+}
+/*media queries para index*/
+@media only screen and (max-width:834px) and (min-width:415px){
+    /*Queries NAV*/
+    .nav-index .nav-index__ul {
+        display: none;
+    }
+    .nav-index .nav-index__logo{
+        width: 20%;
+    }
+    .nav-index__boton {
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    .nav-index__lista .nav-index__ul .nav-index__li{
+        position: absolute
+    }
+    .nav-index__boton i:hover ul li{
+        display: block;
+    }
+    
+    .sloganIndex {
+        margin: 20px;
+        position:relative ;
+        top: 150px;
+        width: 50%;
+    }
+    .sloganIndex h2 {
+        font-size: 25px;
+        position: relative;
+        bottom: 110px;
+    }
+    .sloganIndex a {
+        display: none;
+    }
+    .imagenSlogan img{
+        width: 300px;
+    }
+    /*Queries Cursos*/
+    .imagenesIndex img {
+        border-radius: 20px;
+        width: 150px;
+        opacity: 0.7;
+    }
+    .imagenesIndex img:hover {
+        opacity: 1;
+        width: 200px;
+    }
+
+    /*Redes sociales y Alumnos Queries*/
+
+    .redesSociales video {
+        width: 150px;
+        padding-left: 10px;
+    }
+    .alumnos h4 {
+        font-size: 15px;
+    }
+    .alumnos{
+        font-size: 10px;
+    }
+    .alumnos img {
+        width: 50px;
+    }
+
+    /*Slogan Azul*/
+
+    .sloganAzul h1 {
+        font-size: 35px;
+    }
+
+    /*Footer Queries*/
+
+    .footer .box-container .caja h3 {
+        font-size: 25px;
+    }                
+    .footer .box-container .padreCoach .coach img{
+        width: 100px;
+        border-radius: 20px;
+    }        
+    .footer .box-container .padreCoach .coach a img {
+        width: 20px;
+    }             
+    .footer .box-container .padreCoach .coach p {
+        font-size: 10px;
+    }       
+    .footer .box-container .padreCursos ul {
+        font-size: 15px;
+    }
+    .footer .box-container .padreFaq ul{
+        list-style: none;
+    }
+    /*Queries Registrate*/
+    .imagenFormulario {
+        width: 100%;
+        height:40vh
+    }
+    .contentRegistrate .columnas{
+        flex-wrap: wrap;
+    }      
+    .contentRegistrate .columnas .mapaRegistrate{
+        margin: 10px;
+    }                                                                                                                                                                                                                      
+}
+@media only screen and (max-width:1220px) and (min-width:835px){
+    /*Queries Slogan*/
+    .sloganIndex h2 {
+        font-size: 45px;
+        position: relative;
+        bottom: 70px;
+    }
+    .sloganIndex a{
+        display: none;
+    }
+    .imagenSlogan img{
+        width: 500px;
+    }
+    /*Queries Cursos*/
+    .imagenesIndex img {
+        border-radius: 20px;
+        width: 250px;
+        opacity: 0.7;
+    }
+    .imagenesIndex img:hover {
+        opacity: 1;
+        width: 350px;
+    }
+        /*Queries Registrate*/
+        .imagenFormulario {
+            width: 100%;
+            height:70vh
+        }  
+        .contentRegistrate .columnas{
+            flex-wrap: wrap;
+        }     
+}

@@ -1,0 +1,65 @@
+footer{
+    .footer-section{
+        .footer-section__container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: 
+            "titulos titulos titulos titulos" 
+            "diego karla cursos faq";
+            gap: 15px;
+            .footer-section__padreCoach{
+                margin: 20px;
+                .footer-section__caja{
+                    grid-area: titulos;
+                    .footer-section__h3{
+                        color: black;
+                    }
+                }
+                .footer-section__coach{
+                    display: flex;
+                    .footer-section__coachesD{
+                        grid-area: diego;
+                    }
+                    .footer-section__coachesK{
+                        grid-area: karla;
+                    }
+                }
+            }
+            .footer-section__padreCursos{
+                .footer-section__caja{
+                    grid-area: titulos;
+                    .footer-section__h3{
+                        color: black;
+                    }
+                }
+                .footer-section__cursos{
+                    grid-area: cursos;
+                    .footer-section__ul{
+                        list-style: none;
+                        .footer-section__li{
+                            .footer-section__a{
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-section__padreFaq{
+                .footer-section__caja{
+                    grid-area: titulos;
+                    .footer-section__h3{
+                        color:black
+                    }
+                }
+                .footer-section__faq{
+                    grid-area: faq;
+                    .footer-section__ul{
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+footer .footer-section .footer-section__container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "titulos titulos titulos titulos"  "diego karla cursos faq";
+  gap: 15px;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach {
+  margin: 20px;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: titulos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja .footer-section__h3 {
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: diego;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: karla;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: titulos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja .footer-section__h3 {
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: cursos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul {
+  list-style: none;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul .footer-section__li .footer-section__a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: titulos;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja .footer-section__h3 {
+  color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: faq;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul {
+  list-style: none;
+}
+/*# sourceMappingURL=footer.css.map */

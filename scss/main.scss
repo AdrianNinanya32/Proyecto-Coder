@@ -1,0 +1,223 @@
+@mixin columnas ($sinmargin:5%) {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: $sinmargin;
+    display: flex;
+    justify-content: space-between;
+}
+@mixin columna2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@import "variables";
+/*Main Index*/
+main{
+    .section-slogan{
+        .section-slogan__columnas{
+            @include columnas;
+            .section-slogan__sloganIndex{
+                margin: 20px;
+                position:relative ;
+                top: 150px;
+                width: 50%;
+                .section-slogan__h2{
+                    text-align: left;
+                    color: black;
+                    font-size: 50px;
+                }
+                .section-slogan__a{
+                    color: white;
+                    text-decoration: none;
+                    background: rgb(13,1,204);
+                    font-family: 'Boogaloo', cursive;
+                    background: linear-gradient(128deg, rgba(13,1,204,1) 0%, rgba(19,19,233,1) 0%, rgba(93,112,254,1) 100%);
+                    font-size: 32px;
+                    transition: font-size 0.5s;
+                    position: relative;
+                    left: 100px;
+                    top: 20px;
+                    &:hover{
+                        font-size: 40px;
+                    }
+                }
+            }
+            .section-slogan__imagen{
+                width: 50%;
+            }
+        }
+    }
+    #cursos-section{
+        .cursos-section__h3{
+            text-align: center;
+            font-size: 40px;
+            background-color: $azul1 ;
+        }
+        .container{
+            .carouselProgramas{
+                padding: 40px;
+            }
+        }
+    }
+    #alumnos-section{
+        height: 500px; 
+        .alumnos-section__h3{
+            text-align: center;
+            background-color:$azul1 ;
+            font-size: 40px; 
+        }
+        .alumnos-section__columnas{
+            @include columnas (0px);
+            .alumnos-section__redesSociales{
+                height: 500px;
+                .alumnos-section__h2{
+                    color: black;
+                }
+                video{
+                    height: 300px;
+                    margin-bottom: 60px;
+                }
+            }
+            .alumnos-section__alumnos{
+                text-align: right;
+                margin: 20px;
+                height: 300px;
+                background-color: rgb(173, 173, 173);
+                overflow: scroll;
+                h4{
+                    color: black; 
+                }
+                h3{
+                    text-align: center;
+                    background-color:$azul1;
+                    font-size: 40px; 
+                }
+                img{
+                    border-radius: 80px;
+                }
+            }
+        }
+    }
+    .section-sloganAzul{
+        margin-bottom: 30px;
+        h1{
+            font-size: 70px;
+            color: white;
+            background-color:$azul1 ;
+            text-align: center;
+            padding: 10px;
+        }
+    }   
+}
+
+/*Main Programas*/
+main{
+    .section-programas{
+        .section-programas__columnaProgramas{
+            @include columna2;
+            .section-cursoVirtual{
+                position: relative;
+                top: 35px;
+                h3{
+                    font-size: 50px;
+                    color: black; 
+                }
+            }
+            .section-programa{
+                h2{
+                    color: yellow;
+                    font-size: 100px;  
+                }
+            }
+        }
+        .section-programas__columnaProgramas{
+            .section-programas__imagenProgramas{
+                margin: 20px;
+                width: 40vh;
+            }
+            .section-programas__listaProgramas{
+                ul{
+                    font-size: 30px;
+                }
+                a{
+                    color: white;
+                    text-decoration: none;
+                    background: rgb(13,1,204);
+                    font-family: 'Boogaloo', cursive;
+                    background: linear-gradient(128deg, rgba(13,1,204,1) 0%, rgba(19,19,233,1) 0%, rgba(93,112,254,1) 100%);
+                    font-size: 32px;
+                    transition: font-size 0.5s;
+                    position: relative;
+                    left: 100px;
+                    top: 20px;
+                    &:hover{
+                        font-size: 40px; 
+                    }
+                }
+                h2{
+                    color: yellow;
+                    margin-top: 40px; 
+                }
+            }
+        }
+    }
+    .section-beneficios{
+        .section-beneficios__cajaBeneficios{
+            width: 100%;
+            background-color: yellow;
+            margin: 30px;
+            h2{
+                padding-left: 180px;
+                font-size: 40px; 
+            }
+            .section-beneficios__columnaProgramas{
+                @include columna2;
+                ul{
+                    color: black;
+                    font-size: 25px; 
+                }
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Boogaloo', cursive;
+                    background: rgb(34,195,53);
+                    background: linear-gradient(0deg, rgba(34,195,53,1) 0%, rgba(45,253,55,1) 100%);
+                    font-size: 32px;
+                    transition: font-size 0.5s;
+                    position: relative;
+                    left: 100px;
+                    top: 20px;  
+                }
+            }
+        }
+    }
+    #cursos-section{
+        .cursos-section__h3{
+            text-align: center;
+            font-size: 40px;
+            background-color:$azul1 ;
+        }
+        .container{
+            .carouselProgramas{
+                padding: 40px;
+            }
+        }
+    }
+}
+
+/*Main Registrate*/
+main{
+    .imagenFormulario{
+        width: 100%;
+        height: 85vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5),transparent) url("Multimedia de LAD/imagenMun1-min.jpg") ;
+        background-size: cover;
+        background-position: center;
+    }
+    .mapaRegistrate{
+        margin-left: 50px;
+    }
+    form{
+        margin:30px
+    }
+}
