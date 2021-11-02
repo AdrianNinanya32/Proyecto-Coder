@@ -60,30 +60,19 @@ main{
         }
     }
     #alumnos-section{
-        height: 500px; 
+        height: 1300px; 
         .alumnos-section__h3{
             text-align: center;
             background-color:$azul1 ;
             font-size: 40px; 
         }
-        .alumnos-section__columnas{
-            @include columnas (0px);
-            .alumnos-section__redesSociales{
-                height: 500px;
-                .alumnos-section__h2{
-                    color: black;
-                }
-                video{
-                    height: 300px;
-                    margin-bottom: 60px;
-                }
-            }
-            .alumnos-section__alumnos{
-                text-align: right;
-                margin: 20px;
+        .alumnos-section__alumnos{
+                @include columnas();
+                text-align: center;
+                margin: 10px, 20px,10px,10px;
                 height: 300px;
                 background-color: rgb(173, 173, 173);
-                overflow: scroll;
+                background-size: 200px;
                 h4{
                     color: black; 
                 }
@@ -96,7 +85,6 @@ main{
                     border-radius: 80px;
                 }
             }
-        }
     }
     .section-sloganAzul{
         margin-bottom: 30px;
