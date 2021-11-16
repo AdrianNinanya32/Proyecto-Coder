@@ -14,49 +14,118 @@ footer{
                     grid-area: titulos;
                     .footer-section__h3{
                         color: black;
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 25px;
+                        }
                     }
                 }
                 .footer-section__coach{
                     display: flex;
+                    h4{
+                        color: black;
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 15px;
+                            position:relative;
+                            left: 15px;
+                        }
+                    }
+                    p{
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 12px;
+                            margin: 3px;
+                        }
+                    }
                     .footer-section__coachesD{
                         grid-area: diego;
+                        img{
+                            @media only screen and (max-width:834px) and (min-width:415px){
+                                width: 100px;
+                                border-radius: 20px;
+                            }
+                        }
+                        a{
+                            img{
+                                @media only screen and (max-width:834px) and (min-width:415px){
+                                    width: 20px;
+                                }
+                            }
+                        }
                     }
                     .footer-section__coachesK{
                         grid-area: karla;
+                        img{
+                            @media only screen and (max-width:834px) and (min-width:415px){
+                                width: 100px;
+                                border-radius: 20px;
+                            }
+                        }
+                        a{
+                            
+                            img{
+                                @media only screen and (max-width:834px) and (min-width:415px){
+                                    width: 20px;
+                                }
+                            }
+                        }
                     }
                 }
             }
             .footer-section__padreCursos{
+                margin: 20px;
                 .footer-section__caja{
                     grid-area: titulos;
                     .footer-section__h3{
                         color: black;
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 25px;
+                        }
                     }
                 }
                 .footer-section__cursos{
                     grid-area: cursos;
                     .footer-section__ul{
                         list-style: none;
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 15px;
+                        }
                         .footer-section__li{
                             .footer-section__a{
                                 text-decoration: none;
-                                color: black;
+                                color: black; 
+                                &:hover{
+                                    color: blue;
+                                    text-decoration: underline;
+                                }
                             }
                         }
                     }
                 }
             }
             .footer-section__padreFaq{
+                margin: 20px;
                 .footer-section__caja{
                     grid-area: titulos;
                     .footer-section__h3{
-                        color:black
+                        color:black;
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 25px;
+                        }
                     }
                 }
                 .footer-section__faq{
                     grid-area: faq;
                     .footer-section__ul{
                         list-style: none;
+                        li{
+                            h5{
+                                @media only screen and (max-width:834px) and (min-width:415px){
+                                    font-size: 15px;
+                                }
+                                @media only screen and (max-width:1220px) and (min-width:835px){
+                                    font-size: 20px;
+                                }
+                            }
+                        }
                     }
                 }
             }

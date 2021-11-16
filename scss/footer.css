@@ -23,10 +23,35 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   color: black;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja .footer-section__h3 {
+    font-size: 25px;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach h4 {
+  color: black;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach h4 {
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+  }
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach p {
+    font-size: 12px;
+    margin: 3px;
+  }
 }
 
 footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD {
@@ -35,10 +60,40 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   grid-area: diego;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD img {
+    width: 100px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD a img {
+    width: 20px;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: karla;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK img {
+    width: 100px;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK a img {
+    width: 20px;
+  }
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos {
+  margin: 20px;
 }
 
 footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja {
@@ -52,6 +107,12 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
   color: black;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja .footer-section__h3 {
+    font-size: 25px;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
@@ -62,9 +123,24 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
   list-style: none;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul {
+    font-size: 15px;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul .footer-section__li .footer-section__a {
   text-decoration: none;
   color: black;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul .footer-section__li .footer-section__a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq {
+  margin: 20px;
 }
 
 footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja {
@@ -78,6 +154,12 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   color: black;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja .footer-section__h3 {
+    font-size: 25px;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
@@ -86,5 +168,17 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
 
 footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul {
   list-style: none;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 835px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
