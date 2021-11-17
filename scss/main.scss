@@ -59,10 +59,12 @@ main{
                 }
             }
             .section-slogan__imagen{
-                width: 50%;
+                width: 70%;
                     img{
                     @media only screen and (max-width:834px) and (min-width:250px){
                         width: 200px;
+                        position: relative;
+                        top: 50px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
                         width: 500px;
@@ -227,6 +229,8 @@ main{
                     top: 20px;
                     @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 20px;
+                        position: relative;
+                        left: 50px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
                         font-size: 25px;
@@ -297,17 +301,19 @@ main{
                     &:hover{
                         font-size: 35px; 
                         @media only screen and (max-width:834px) and (min-width:250px){
-                            font-size: 20px;
+                            font-size: 15px;
+                            position: relative;
+                            bottom: 30px;
                         }
                         @media only screen and (max-width:1220px) and (min-width:835px){
-                            font-size: 25px;
+                            font-size: 20px;
                         }
                     }
                     @media only screen and (max-width:834px) and (min-width:250px){
-                        font-size: 13px;
+                        font-size: 10px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
-                        font-size: 20px;
+                        font-size: 25px;
                     } 
                 }
             }

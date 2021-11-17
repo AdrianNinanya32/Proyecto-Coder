@@ -119,12 +119,14 @@ main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .sec
 }
 
 main .section-slogan .section-slogan__columnas .section-slogan__imagen {
-  width: 50%;
+  width: 70%;
 }
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__imagen img {
     width: 200px;
+    position: relative;
+    top: 50px;
   }
 }
 
@@ -368,6 +370,8 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a {
     font-size: 20px;
+    position: relative;
+    left: 50px;
   }
 }
 
@@ -486,25 +490,27 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a:hover {
-    font-size: 20px;
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 1220px) and (min-width: 835px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a:hover {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
 @media only screen and (max-width: 1220px) and (min-width: 835px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 

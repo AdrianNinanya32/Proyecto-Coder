@@ -47,7 +47,7 @@ li {
 }
 
 footer .footer-section .footer-section__container {
-  width: 100%;
+  width: 75%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -58,6 +58,12 @@ footer .footer-section .footer-section__container {
 
 footer .footer-section .footer-section__container .footer-section__padreCoach {
   margin: 20px;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container .footer-section__padreCoach {
+    margin: 0;
+  }
 }
 
 footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja {
@@ -144,6 +150,12 @@ footer .footer-section .footer-section__container .footer-section__padreCursos {
   margin: 20px;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container .footer-section__padreCursos {
+    margin: 0;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -189,6 +201,12 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
 
 footer .footer-section .footer-section__container .footer-section__padreFaq {
   margin: 20px;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq {
+    margin: 0;
+  }
 }
 
 footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja {

@@ -2,7 +2,7 @@
 footer{
     .footer-section{
         .footer-section__container{
-            width: 100%;
+            width: 75%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-areas: 
@@ -11,6 +11,9 @@ footer{
             gap: 15px;
             .footer-section__padreCoach{
                 margin: 20px;
+                @media only screen and (max-width:834px) and (min-width:250px){
+                    margin: 0;
+                }
                 .footer-section__caja{
                     grid-area: titulos;
                     .footer-section__h3{
@@ -73,6 +76,9 @@ footer{
             }
             .footer-section__padreCursos{
                 margin: 20px;
+                @media only screen and (max-width:834px) and (min-width:250px){
+                    margin: 0;
+                }
                 .footer-section__caja{
                     grid-area: titulos;
                     .footer-section__h3{
@@ -104,6 +110,9 @@ footer{
             }
             .footer-section__padreFaq{
                 margin: 20px;
+                @media only screen and (max-width:834px) and (min-width:250px){
+                    margin: 0;
+                }
                 .footer-section__caja{
                     grid-area: titulos;
                     .footer-section__h3{
