@@ -203,7 +203,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__imagen {
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__imagen img {
-    width: 300px;
+    width: 200px;
   }
 }
 
@@ -229,7 +229,7 @@ main #alumnos-section {
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section {
-    height: 850px;
+    height: 950px;
   }
 }
 

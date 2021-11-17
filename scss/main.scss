@@ -62,7 +62,7 @@ main{
                 width: 50%;
                     img{
                     @media only screen and (max-width:834px) and (min-width:250px){
-                        width: 300px;
+                        width: 200px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
                         width: 500px;
@@ -86,7 +86,7 @@ main{
     #alumnos-section{
         height: 1300px; 
         @media only screen and (max-width:834px) and (min-width:250px){
-            height: 850px;
+            height: 950px;
         }
         @media only screen and (max-width:1220px) and (min-width:835px){
             height: 1000px;
