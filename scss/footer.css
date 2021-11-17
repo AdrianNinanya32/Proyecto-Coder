@@ -172,13 +172,13 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
 
 @media only screen and (max-width: 834px) and (min-width: 415px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
 @media only screen and (max-width: 1220px) and (min-width: 835px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

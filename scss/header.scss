@@ -1,70 +1,21 @@
 @import "variables";
 header{
-    .header-section{
-        background: $azul1;
-        .nav-index{
-            display: flex;
-            padding-top: 2px;
-            justify-content: space-between;
-            align-items: center;
-            .nav-index__logo{
-                width: 150px;
-            }
-            .nav-index__boton{
-                display: none;
-            }
-            .nav-index__lista{
-                text-align: right;
-                padding-right: 60px;
-                .nav-index__ul{
-                    list-style: none;
-                    font-size: 0%;
-                    .nav-index__li{
-                        display:inline-block;
-                        margin-left: 30px;
-                        font-size: 20px;
-                        position: relative;
-                        &:hover ul{
-                            display: block;
-                        }
-                        .nav-index__a{
-                            color: white;
-                            text-decoration:none ;
-                            position: relative;
-                            transition: 1s;
-                            &::after{
-                                content: "";
-                                width: 0;
-                                height: 3px;
-                                position: absolute;
-                                bottom: -3px;
-                                left: 50%;
-                                transform: translateX(-50%);
-                                background:yellow;
-                                transition: width 0.3s;
-                            }
-                            &:hover::after{
-                                width: 75%;
-                                font-size: 20px;
-                            }
-                            &:hover{
-                                font-size: 25px;
-                            }
-                        }
-                        .nav-index__ul--submenu{
-                            position: absolute;
-                            display: none;
-                            background-color: rgb(26, 26, 153);  
-                            .nav-index__li--submenu{
-                                text-align: center;
-                                display: block;
-                                font-size: 15px;
-                                right: 10px;
-                            }
+        .header-section{
+            .navbar-custom{
+                background: $azul1;
+                ul{
+                    font-size: 20px;
+                    a{
+                        transition: 1.5s;
+                        &:hover{
+                            text-decoration: yellow;
+                            text-decoration: underline;
                         }
                     }
+                    ul{
+                        font-size: 15px;
+                    }
                 }
-            }
         }
     }
 }

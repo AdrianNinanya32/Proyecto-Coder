@@ -119,11 +119,32 @@ footer{
                         li{
                             h5{
                                 @media only screen and (max-width:834px) and (min-width:415px){
-                                    font-size: 15px;
+                                    font-size: 10px;
                                 }
                                 @media only screen and (max-width:1220px) and (min-width:835px){
-                                    font-size: 20px;
+                                    font-size: 15px;
                                 }
+                            }
+                        }
+                    }
+                    form{
+                        @media only screen and (max-width:834px) and (min-width:415px){
+                            flex-wrap: wrap;;
+                        }
+                        input{
+                            @media only screen and (max-width:834px) and (min-width:415px){
+                                font-size: 10px;
+                            } 
+                        }
+                        button{
+                            color: $azul1;
+                            transition: 0.5s;
+                            &:hover{
+                                background-color:$azul1;
+                                color: white;
+                            }
+                            @media only screen and (max-width:834px) and (min-width:415px){
+                            font-size: 10px;
                             }
                         }
                     }

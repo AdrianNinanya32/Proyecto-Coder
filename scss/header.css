@@ -46,93 +46,26 @@ li {
           justify-content: space-between;
 }
 
-header .header-section {
+header .header-section .navbar-custom {
   background: #5151fd;
 }
 
-header .header-section .nav-index {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 2px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header .header-section .nav-index .nav-index__logo {
-  width: 150px;
-}
-
-header .header-section .nav-index .nav-index__boton {
-  display: none;
-}
-
-header .header-section .nav-index .nav-index__lista {
-  text-align: right;
-  padding-right: 60px;
-}
-
-header .header-section .nav-index .nav-index__lista .nav-index__ul {
-  list-style: none;
-  font-size: 0%;
-}
-
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li {
-  display: inline-block;
-  margin-left: 30px;
-  font-size: 20px;
-  position: relative;
-}
-
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li:hover ul {
-  display: block;
-}
-
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a {
-  color: white;
-  text-decoration: none;
-  position: relative;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  position: absolute;
-  bottom: -3px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  background: yellow;
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
-}
-
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a:hover::after {
-  width: 75%;
+header .header-section .navbar-custom ul {
   font-size: 20px;
 }
 
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__a:hover {
-  font-size: 25px;
+header .header-section .navbar-custom ul a {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__ul--submenu {
-  position: absolute;
-  display: none;
-  background-color: #1a1a99;
+header .header-section .navbar-custom ul a:hover {
+  -webkit-text-decoration: yellow;
+          text-decoration: yellow;
+  text-decoration: underline;
 }
 
-header .header-section .nav-index .nav-index__lista .nav-index__ul .nav-index__li .nav-index__ul--submenu .nav-index__li--submenu {
-  text-align: center;
-  display: block;
+header .header-section .navbar-custom ul ul {
   font-size: 15px;
-  right: 10px;
 }
 /*# sourceMappingURL=header.css.map */

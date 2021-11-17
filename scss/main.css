@@ -521,17 +521,6 @@ main #cursos-section .container .carouselProgramas {
 /*Main Registrate*/
 main .section-registrate__imagenFormulario {
   width: 100%;
-  height: 85vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent)), url("Multimedia de LAD/");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("Multimedia de LAD/");
-  background-size: cover;
-  background-position: center;
-}
-
-@media only screen and (max-width: 834px) and (min-width: 415px) {
-  main .section-registrate__imagenFormulario {
-    height: 40vh;
-  }
 }
 
 @media only screen and (max-width: 834px) and (min-width: 415px) {

@@ -331,13 +331,6 @@ main{
 main{
     .section-registrate__imagenFormulario{
         width: 100%;
-        height: 85vh;
-        background-image: linear-gradient(rgba(0,0,0,0.5),transparent), url("Multimedia de LAD/");
-        background-size: cover;
-        background-position: center;
-        @media only screen and (max-width:834px) and (min-width:415px){
-            height: 40vh;
-        }
     }
     .columnas{
         @media only screen and (max-width:834px) and (min-width:415px){

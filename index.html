@@ -22,28 +22,34 @@
     <header>
         <!--Inicio de Barra de Navegación-->
         <section class="header-section">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
                 <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <a class="navbar-brand" href="index.html"><img src="Multimedia de LAD/Imagenes_Logos/cropped-Nuevo-Logo-LAD-01-min.png" alt="logoLAD" width="100px"></a>
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#alumnos-section">Alumnos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link active text-white" href="#footer-section">Coaches</a>
+                      </li>
+                      <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle text-white href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Cursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="programaIntegral.html">Programa Integral</a></li>
+                          <li><a class="dropdown-item" href="munbasico.html">Mun 1</a></li>
+                          <li><a class="dropdown-item" href="oratoria1.html">Oratoria 1</a></li>
+                        </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link active text-white" href="registrate.html">Regístrate</a>
                       </li>
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                   </div>
                 </div>
               </nav>
@@ -75,21 +81,21 @@
                         </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="Multimedia de LAD/Imagenes_Programas/Integral Program Básico-min.jpeg" class="d-block w-100" alt="...">
+                            <img src="Multimedia de LAD/Imagenes_Programas/Integral Program Básico-min.jpeg" class="d-block w-100" alt="Integral Program">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Programa Integral</h5>
                               <span class="badge bg-primary">New</span>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="Multimedia de LAD/Imagenes_Programas/Liderazgo II-min.png" class="d-block w-100" alt="...">
+                            <img src="Multimedia de LAD/Imagenes_Programas/Liderazgo II-min.png" class="d-block w-100" alt="Liderazgo">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Liderazgo II</h5>
                               <span class="badge bg-primary">New</span>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="Multimedia de LAD/Imagenes_Programas/MUN Bäsico-min.jpeg" class="d-block w-100" alt="...">
+                            <img src="Multimedia de LAD/Imagenes_Programas/MUN Bäsico-min.jpeg" class="d-block w-100" alt="Mun Básico">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>MUN Básico</h5>
                               <span class="badge bg-primary">New</span>  
@@ -109,7 +115,7 @@
         </section>     
         <!--Incio de Alumnos-->
         <section id="alumnos-section">
-            <h3 class="alumnos-section__h3" >NUESTROS ALUMNOS</h3>
+            <h3 class="alumnos-section__h3" >NUESTRAS REDES</h3>
             <div class="alumnos-section__tiktok" data-mc-src="e2c388fc-d6e1-4012-a6f1-22e5282ef1f2#tiktok"></div> 
             <div class="alumnos-section__posts" data-mc-src="a518923f-d506-486e-b713-4533211b0f9c#instagram">
             </div>
@@ -192,6 +198,10 @@
                                 <li class="footer-section__li"><h5>¿De verdad puedo aprender a hablar en público?</h5></li>
                                 <li class="footer-section__li"><h5>¿Tienen delegación de debate?</h5></li>
                             </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Tu correo" aria-label="Search">
+                              <button class="btn .btn-primary btn-outline-success" type="submit">Enviar</button>
+                            </form>
                         </div>
                     </div>
                 </div>

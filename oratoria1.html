@@ -19,32 +19,42 @@
     <title>LAD Academy-Programa Integral</title>
 </head>
 <body>
-    <header>
-        <!--Inicio de Barra de Navegación-->
-        <section class="header-section">
-            <nav class="nav-index">
-                <a href="index.html"><img class="nav-index__logo" src="Multimedia de LAD/Imagenes_Logos/cropped-Nuevo-Logo-LAD-01-min.png" alt="cropped-Nuevo-Logo-LAD-01"></a>             
-                    
-                <div class="nav-index__boton">
-                    <i class="fas fa-bars"></i>
-                </div> 
-                <div class="nav-index__lista">
-                    <ul class="nav-index__ul">
-                        <li class="nav-index__li"> <a class="nav-index__a" href="#footer-section">Coaches</a></li>
-                        <li class="nav-index__li"> <a class="nav-index__a" href="#alumnos-section">Alumnos</a></li>
-                        <li class="nav-index__li"> <a class="nav-index__a" href="#cursos-section">Cursos</a>
-                            <ul class="nav-index__ul--submenu">
-                                <li class="nav-index__li--submenu"> <a class="nav-index__a" href="programaIntegral.html">Programa Integral</a></li>
-                                <li class="nav-index__li--submenu"> <a class="nav-index__a" href="munbasico.html">Mun Básico</a></li>
-                                <li class="nav-index__li--submenu"> <a class="nav-index__a" href="oratoria1.html">Oratoria 1</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-index__li"> <a class="nav-index__a" href="registrate.html">Separa tu Cupo</a></li>
+  <header>
+    <!--Inicio de Barra de Navegación-->
+    <section class="header-section">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <div class="container-fluid">
+              <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="Multimedia de LAD/Imagenes_Logos/cropped-Nuevo-Logo-LAD-01-min.png" alt="logoLAD" width="100px"></a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html#alumnos-section">Alumnos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="#footer-section">Coaches</a>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle text-white href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cursos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="programaIntegral.html">Programa Integral</a></li>
+                      <li><a class="dropdown-item" href="munbasico.html">Mun 1</a></li>
+                      <li><a class="dropdown-item" href="oratoria1.html">Oratoria 1</a></li>
                     </ul>
-                </div>
-            </nav>
-        </section>
-    </header>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" href="registrate.html">Regístrate</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+</header>
     <main>
           <!--Inicio de Programas-->
         <section class="section-programas">
@@ -58,7 +68,7 @@
             </section>
             <section class="section-programas__columnaProgramas">
                 <div class="section-programas__imagenProgramas">
-                    <img class="animate__animated animate__backInUp" src="Multimedia de LAD/Imagenes_Programas/Oratoria 1-min.jpeg" alt="">
+                    <img class="animate__animated animate__backInUp" src="Multimedia de LAD/Imagenes_Programas/Oratoria 1-min.jpeg" alt="Oratoria">
                 </div>
                 <div class="section-programas__listaProgramas">
                     <ul class="animate__animated animate__backInUp">Incluye
@@ -112,21 +122,21 @@
                         </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="Multimedia de LAD/Imagenes_Programas/Integral Program Básico-min.jpeg" class="d-block w-100" alt="...">
+                            <img src="Multimedia de LAD/Imagenes_Programas/Integral Program Básico-min.jpeg" class="d-block w-100" alt="Integral Program">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Programa Integral</h5>
                               <span class="badge bg-primary">New</span>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="Multimedia de LAD/Imagenes_Programas/Liderazgo II-min.png" class="d-block w-100" alt="...">
+                            <img src="Multimedia de LAD/Imagenes_Programas/Liderazgo II-min.png" class="d-block w-100" alt="Liderazgo">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Liderazgo II</h5>
                               <span class="badge bg-primary">New</span>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="Multimedia de LAD/Imagenes_Programas/MUN Bäsico-min.jpeg" class="d-block w-100" alt="...">
+                            <img src="Multimedia de LAD/Imagenes_Programas/MUN Bäsico-min.jpeg" class="d-block w-100" alt="Mun Básico">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>MUN Básico</h5>
                               <span class="badge bg-primary">New</span>  
@@ -202,6 +212,10 @@
                                 <li class="footer-section__li"><h5>¿De verdad puedo aprender a hablar en público?</h5></li>
                                 <li class="footer-section__li"><h5>¿Tienen delegación de debate?</h5></li>
                             </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Tu correo" aria-label="Search">
+                              <button class="btn .btn-primary btn-outline-success" type="submit">Enviar</button>
+                            </form>
                         </div>
                     </div>
                 </div>
