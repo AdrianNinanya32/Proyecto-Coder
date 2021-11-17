@@ -327,7 +327,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__imagenProgramas img {
-    width: 250px;
+    width: 150px;
   }
 }
 

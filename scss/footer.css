@@ -56,6 +56,12 @@ footer .footer-section .footer-section__container {
   gap: 15px;
 }
 
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container {
+    gap: 5px;
+  }
+}
+
 footer .footer-section .footer-section__container .footer-section__padreCoach {
   margin: 20px;
 }

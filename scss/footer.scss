@@ -9,6 +9,9 @@ footer{
             "titulos titulos titulos titulos" 
             "diego karla cursos faq";
             gap: 15px;
+            @media only screen and (max-width:834px) and (min-width:250px){
+                gap: 5px;
+            }
             .footer-section__padreCoach{
                 margin: 20px;
                 @media only screen and (max-width:834px) and (min-width:250px){

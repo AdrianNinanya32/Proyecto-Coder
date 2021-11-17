@@ -406,7 +406,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
 
 @media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__imagenProgramas img {
-    width: 250px;
+    width: 150px;
   }
 }
 
@@ -698,6 +698,12 @@ footer .footer-section .footer-section__container {
       grid-template-columns: repeat(4, 1fr);
       grid-template-areas: "titulos titulos titulos titulos"  "diego karla cursos faq";
   gap: 15px;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container {
+    gap: 5px;
+  }
 }
 
 footer .footer-section .footer-section__container .footer-section__padreCoach {
