@@ -151,7 +151,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .sec
   font-size: 50px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__h2 {
     font-size: 25px;
     position: relative;
@@ -181,7 +181,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .sec
   top: 20px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__a {
     display: none;
   }
@@ -201,7 +201,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__imagen {
   width: 50%;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__imagen img {
     width: 300px;
   }
@@ -227,7 +227,7 @@ main #alumnos-section {
   height: 1300px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section {
     height: 850px;
   }
@@ -262,7 +262,7 @@ main #alumnos-section .alumnos-section__alumnos {
   background-size: 200px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos {
     height: 150px;
     margin: 0;
@@ -280,7 +280,7 @@ main #alumnos-section .alumnos-section__alumnos h4 {
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos h4 {
     font-size: 15px;
   }
@@ -302,7 +302,7 @@ main #alumnos-section .alumnos-section__alumnos img {
   border-radius: 80px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos img {
     width: 50px;
   }
@@ -314,7 +314,7 @@ main #alumnos-section .alumnos-section__alumnos img {
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos p {
     font-size: 10px;
   }
@@ -338,7 +338,7 @@ main .section-sloganAzul h1 {
   padding: 10px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-sloganAzul h1 {
     font-size: 35px;
   }
@@ -368,7 +368,7 @@ main .section-programas .section-programas__columnaProgramas .section-cursoVirtu
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-cursoVirtual h3 {
     font-size: 25px;
   }
@@ -385,7 +385,7 @@ main .section-programas .section-programas__columnaProgramas .section-programa h
   font-size: 100px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programa h2 {
     font-size: 50px;
   }
@@ -402,7 +402,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   width: 40vh;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__imagenProgramas img {
     width: 35vh;
   }
@@ -418,7 +418,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   font-size: 30px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas ul {
     font-size: 15px;
   }
@@ -444,7 +444,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   top: 20px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a {
     font-size: 20px;
   }
@@ -460,7 +460,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   font-size: 40px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a:hover {
     font-size: 25px;
   }
@@ -477,7 +477,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   margin-top: 40px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas h2 {
     font-size: 25px;
   }
@@ -495,7 +495,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios {
   margin: 30px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios {
     margin: 20px;
     position: relative;
@@ -508,7 +508,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios h2 {
   font-size: 40px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios h2 {
     font-size: 20px;
   }
@@ -532,7 +532,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
   font-size: 25px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas ul {
     font-size: 13px;
   }
@@ -563,7 +563,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
   font-size: 35px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a:hover {
     font-size: 20px;
   }
@@ -575,7 +575,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a {
     font-size: 13px;
   }
@@ -602,7 +602,7 @@ main .section-registrate__imagenFormulario {
   width: 100%;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .columnas {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -620,7 +620,7 @@ main .columnas .section-registrate__mapaRegistrate {
   margin-left: 50px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .columnas .section-registrate__mapaRegistrate {
     margin: 0;
   }
@@ -634,6 +634,54 @@ main .columnas .section-registrate__mapaRegistrate {
 
 main .columnas form {
   margin: 30px;
+}
+
+/*Estilos Globales*/
+h1 {
+  font-family: 'Boogaloo', cursive;
+  color: white;
+}
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer .footer-section .footer-section__container {
@@ -661,7 +709,7 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja .footer-section__h3 {
     font-size: 25px;
   }
@@ -677,7 +725,7 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach h4 {
     font-size: 15px;
     position: relative;
@@ -685,7 +733,7 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach p {
     font-size: 12px;
     margin: 3px;
@@ -698,14 +746,14 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   grid-area: diego;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD img {
     width: 100px;
     border-radius: 20px;
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD a img {
     width: 20px;
   }
@@ -717,14 +765,14 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   grid-area: karla;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK img {
     width: 100px;
     border-radius: 20px;
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK a img {
     width: 20px;
   }
@@ -745,7 +793,7 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja .footer-section__h3 {
     font-size: 25px;
   }
@@ -761,7 +809,7 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
   list-style: none;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul {
     font-size: 15px;
   }
@@ -792,7 +840,7 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja .footer-section__h3 {
     font-size: 25px;
   }
@@ -808,7 +856,7 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   list-style: none;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
     font-size: 10px;
   }
@@ -820,14 +868,14 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form input {
     font-size: 10px;
   }
@@ -844,7 +892,7 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   color: white;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form button {
     font-size: 10px;
   }

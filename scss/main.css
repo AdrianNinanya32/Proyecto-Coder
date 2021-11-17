@@ -72,7 +72,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .sec
   font-size: 50px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__h2 {
     font-size: 25px;
     position: relative;
@@ -102,7 +102,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .sec
   top: 20px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__sloganIndex .section-slogan__a {
     display: none;
   }
@@ -122,7 +122,7 @@ main .section-slogan .section-slogan__columnas .section-slogan__imagen {
   width: 50%;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-slogan .section-slogan__columnas .section-slogan__imagen img {
     width: 300px;
   }
@@ -148,7 +148,7 @@ main #alumnos-section {
   height: 1300px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section {
     height: 850px;
   }
@@ -183,7 +183,7 @@ main #alumnos-section .alumnos-section__alumnos {
   background-size: 200px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos {
     height: 150px;
     margin: 0;
@@ -201,7 +201,7 @@ main #alumnos-section .alumnos-section__alumnos h4 {
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos h4 {
     font-size: 15px;
   }
@@ -223,7 +223,7 @@ main #alumnos-section .alumnos-section__alumnos img {
   border-radius: 80px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos img {
     width: 50px;
   }
@@ -235,7 +235,7 @@ main #alumnos-section .alumnos-section__alumnos img {
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main #alumnos-section .alumnos-section__alumnos p {
     font-size: 10px;
   }
@@ -259,7 +259,7 @@ main .section-sloganAzul h1 {
   padding: 10px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-sloganAzul h1 {
     font-size: 35px;
   }
@@ -289,7 +289,7 @@ main .section-programas .section-programas__columnaProgramas .section-cursoVirtu
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-cursoVirtual h3 {
     font-size: 25px;
   }
@@ -306,7 +306,7 @@ main .section-programas .section-programas__columnaProgramas .section-programa h
   font-size: 100px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programa h2 {
     font-size: 50px;
   }
@@ -323,7 +323,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   width: 40vh;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__imagenProgramas img {
     width: 35vh;
   }
@@ -339,7 +339,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   font-size: 30px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas ul {
     font-size: 15px;
   }
@@ -365,7 +365,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   top: 20px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a {
     font-size: 20px;
   }
@@ -381,7 +381,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   font-size: 40px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas a:hover {
     font-size: 25px;
   }
@@ -398,7 +398,7 @@ main .section-programas .section-programas__columnaProgramas .section-programas_
   margin-top: 40px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-programas .section-programas__columnaProgramas .section-programas__listaProgramas h2 {
     font-size: 25px;
   }
@@ -416,7 +416,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios {
   margin: 30px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios {
     margin: 20px;
     position: relative;
@@ -429,7 +429,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios h2 {
   font-size: 40px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios h2 {
     font-size: 20px;
   }
@@ -453,7 +453,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
   font-size: 25px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas ul {
     font-size: 13px;
   }
@@ -484,7 +484,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
   font-size: 35px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a:hover {
     font-size: 20px;
   }
@@ -496,7 +496,7 @@ main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .section-beneficios .section-beneficios__cajaBeneficios .section-beneficios__columnaProgramas a {
     font-size: 13px;
   }
@@ -523,7 +523,7 @@ main .section-registrate__imagenFormulario {
   width: 100%;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .columnas {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -541,7 +541,7 @@ main .columnas .section-registrate__mapaRegistrate {
   margin-left: 50px;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   main .columnas .section-registrate__mapaRegistrate {
     margin: 0;
   }

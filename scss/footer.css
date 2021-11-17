@@ -1,3 +1,51 @@
+/*Estilos Globales*/
+h1 {
+  font-family: 'Boogaloo', cursive;
+  color: white;
+}
+
+h2 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.columnas {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 footer .footer-section .footer-section__container {
   width: 100%;
   display: -ms-grid;
@@ -23,7 +71,7 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__caja .footer-section__h3 {
     font-size: 25px;
   }
@@ -39,7 +87,7 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach h4 {
     font-size: 15px;
     position: relative;
@@ -47,7 +95,7 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach p {
     font-size: 12px;
     margin: 3px;
@@ -60,14 +108,14 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   grid-area: diego;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD img {
     width: 100px;
     border-radius: 20px;
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesD a img {
     width: 20px;
   }
@@ -79,14 +127,14 @@ footer .footer-section .footer-section__container .footer-section__padreCoach .f
   grid-area: karla;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK img {
     width: 100px;
     border-radius: 20px;
   }
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCoach .footer-section__coach .footer-section__coachesK a img {
     width: 20px;
   }
@@ -107,7 +155,7 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__caja .footer-section__h3 {
     font-size: 25px;
   }
@@ -123,7 +171,7 @@ footer .footer-section .footer-section__container .footer-section__padreCursos .
   list-style: none;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreCursos .footer-section__cursos .footer-section__ul {
     font-size: 15px;
   }
@@ -154,7 +202,7 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   color: black;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__caja .footer-section__h3 {
     font-size: 25px;
   }
@@ -170,7 +218,7 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
   list-style: none;
 }
 
-@media only screen and (max-width: 834px) and (min-width: 415px) {
+@media only screen and (max-width: 834px) and (min-width: 250px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
     font-size: 10px;
   }
@@ -179,6 +227,36 @@ footer .footer-section .footer-section__container .footer-section__padreFaq .foo
 @media only screen and (max-width: 1220px) and (min-width: 835px) {
   footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq .footer-section__ul li h5 {
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form input {
+    font-size: 10px;
+  }
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form button {
+  color: #5151fd;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form button:hover {
+  background-color: #5151fd;
+  color: white;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 250px) {
+  footer .footer-section .footer-section__container .footer-section__padreFaq .footer-section__faq form button {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

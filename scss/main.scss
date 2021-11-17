@@ -25,7 +25,7 @@ main{
                     text-align: left;
                     color: black;
                     font-size: 50px;
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 25px;
                         position: relative;
                         bottom: 110px;
@@ -47,7 +47,7 @@ main{
                     position: relative;
                     left: 100px;
                     top: 20px;
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         display: none;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -61,7 +61,7 @@ main{
             .section-slogan__imagen{
                 width: 50%;
                     img{
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         width: 300px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -85,7 +85,7 @@ main{
     }
     #alumnos-section{
         height: 1300px; 
-        @media only screen and (max-width:834px) and (min-width:415px){
+        @media only screen and (max-width:834px) and (min-width:250px){
             height: 850px;
         }
         @media only screen and (max-width:1220px) and (min-width:835px){
@@ -103,7 +103,7 @@ main{
                 height: 300px;
                 background-color: rgb(173, 173, 173);
                 background-size: 200px;
-                @media only screen and (max-width:834px) and (min-width:415px){
+                @media only screen and (max-width:834px) and (min-width:250px){
                     height: 150px;
                     margin: 0;
                 }
@@ -113,7 +113,7 @@ main{
                 }
                 h4{
                     color: black; 
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 15px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -127,7 +127,7 @@ main{
                 }
                 img{
                     border-radius: 80px;
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         width: 50px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -135,7 +135,7 @@ main{
                     }
                 }
                 p{
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 10px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -152,7 +152,7 @@ main{
             background-color:$azul1 ;
             text-align: center;
             padding: 10px;
-            @media only screen and (max-width:834px) and (min-width:415px){
+            @media only screen and (max-width:834px) and (min-width:250px){
                 font-size: 35px;
             }
         }
@@ -170,7 +170,7 @@ main{
                 h3{
                     font-size: 50px;
                     color: black; 
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 25px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -182,7 +182,7 @@ main{
                 h2{
                     color: yellow;
                     font-size: 100px;
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 50px;
                     }  
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -196,7 +196,7 @@ main{
                 margin: 20px;
                 width: 40vh;
                 img{
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         width: 35vh;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -207,7 +207,7 @@ main{
             .section-programas__listaProgramas{
                 ul{
                     font-size: 30px;
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 15px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -225,7 +225,7 @@ main{
                     position: relative;
                     left: 100px;
                     top: 20px;
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 20px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -233,7 +233,7 @@ main{
                     }
                     &:hover{
                         font-size: 40px; 
-                        @media only screen and (max-width:834px) and (min-width:415px){
+                        @media only screen and (max-width:834px) and (min-width:250px){
                             font-size: 25px;
                         }
                         @media only screen and (max-width:1220px) and (min-width:835px){
@@ -244,7 +244,7 @@ main{
                 h2{
                     color: yellow;
                     margin-top: 40px; 
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 25px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -259,7 +259,7 @@ main{
             width: 100%;
             background-color: yellow;
             margin: 30px;
-            @media only screen and (max-width:834px) and (min-width:415px){
+            @media only screen and (max-width:834px) and (min-width:250px){
                 margin: 20px;
                 position: relative;
                 right: 20px;
@@ -267,7 +267,7 @@ main{
             h2{
                 padding-left: 180px;
                 font-size: 40px;
-                @media only screen and (max-width:834px) and (min-width:415px){
+                @media only screen and (max-width:834px) and (min-width:250px){
                     font-size: 20px;
                 } 
             }
@@ -276,7 +276,7 @@ main{
                 ul{
                     color: black;
                     font-size: 25px; 
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 13px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -296,14 +296,14 @@ main{
                     top: 20px; 
                     &:hover{
                         font-size: 35px; 
-                        @media only screen and (max-width:834px) and (min-width:415px){
+                        @media only screen and (max-width:834px) and (min-width:250px){
                             font-size: 20px;
                         }
                         @media only screen and (max-width:1220px) and (min-width:835px){
                             font-size: 25px;
                         }
                     }
-                    @media only screen and (max-width:834px) and (min-width:415px){
+                    @media only screen and (max-width:834px) and (min-width:250px){
                         font-size: 13px;
                     }
                     @media only screen and (max-width:1220px) and (min-width:835px){
@@ -333,7 +333,7 @@ main{
         width: 100%;
     }
     .columnas{
-        @media only screen and (max-width:834px) and (min-width:415px){
+        @media only screen and (max-width:834px) and (min-width:250px){
             flex-wrap: wrap;
         }  
         @media only screen and (max-width:1220px) and (min-width:835px){
@@ -341,7 +341,7 @@ main{
         }
         .section-registrate__mapaRegistrate{
             margin-left: 50px;
-            @media only screen and (max-width:834px) and (min-width:415px){
+            @media only screen and (max-width:834px) and (min-width:250px){
                 margin:0
             }
             @media only screen and (max-width:1220px) and (min-width:835px){
